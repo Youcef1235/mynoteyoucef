@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "MyNotes",
+    "slug": "mynotes-app",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#45699D"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.azienda.mynotes"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#45699D"
+      },
+      "package": "com.azienda.mynotes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
